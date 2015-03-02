@@ -1,0 +1,169 @@
+@charset "utf-8";
+
+/*** HEADER ADJUSTMENTS ***/
+
+header.mainHeader { height:auto; overflow:hidden; position:static; display:block; vertical-align:middle;}
+header.mainHeader #logo{ height:50px; }
+header.mainHeader #logoAnchor{ height:50px; display:inline-block; position:static; margin:15px 8%; }
+header.mainHeader #mobileMenuTrigger{ display:inline-block; position:static; margin:20px 8%; float:right; }
+
+#headerNav{
+	position:static;
+	display:none;
+	color:#FFF;
+	width:100%;
+	bottom:0px; right:0%; left:0%;
+}
+
+#headerNav ul#secondaryHeaderNav{ position:static; display:block; width:100%; text-align:left; font-size:16px; text-indent:8%; font-weight:lighter; }
+#headerNav ul#mainHeaderNav{ position:static; display:block; width:100%; text-align:left; font-size:16px; text-indent:8%; font-weight:lighter; }
+
+#headerNav ul li{ display:block; margin-left:0%; padding:10px 0; background:rgba(255,255,255,0.1); margin-bottom:1px;
+}
+
+#headerNav ul li div, #headerNav ul li img{display:none;}
+#headerNav ul#secondaryHeaderNav #mobileText{ display:inline; }
+
+/*** SLIDESHOW ADJUSTMENTS ***/
+#slideshow, #slideshow #slideshowWrap, #slideshow #slideshowWrap .slide  { height:260px; }
+#slidesBullets{top:15px;}
+
+
+
+#slideshow h2{ margin-top:30px; font-size:28px; line-height:30px;}
+#slideshow p { margin-top:10px; width:90%; text-shadow: 0 0 20px rgba(0,0,0,0.7);}
+
+#slideshow a.slideLink{ position:relative; color:#FFF; margin:10px 0 0 0; padding:5px 10px; font-size:16px; font-weight:lighter; line-height:16px; background:#48a5b7; display:inline-block; }
+
+
+/*** SERVICES ADJUSTMENTS ***/
+
+.fluidBox{ width:100%; clear:both; margin:0 0 30px 0; }
+.fluidBox h2{ display:block; font-size:30px; margin:8% 8% 20px 8%; background:rgba(70, 154, 170, 0.5); padding:6px; color:#FFF;}
+.fluidBox p{ font-size:16px; margin:0 8% 10px 8%; height:auto; overflow:hidden; display:block; }
+.fluidBox img{ margin:0 0 10px 0; }
+.fluidBox a{ font-size:16px; color:#48a5b7; margin-right:8%;  }
+.fluidBox .alignRight{ margin: 10px 8% 8% 0; }
+
+#circlesContainer{ width:100%; clear:both; }
+.circleBlock { margin: 0 8% 30px 0; width:46%; height:auto; float:left; }
+.circleBlock:nth-child(2), .circleBlock:nth-child(4){ margin-right:0; }
+.circleBlock h2{font-size:16px; }
+#otherServices { margin: 0 0 75px 0; }
+#fullServiceList{ width:100%; margin:0; display:block; clear:both; overflow:hidden; }
+#fullServiceList p#ctaText { font-size: 24px; display:block; clear:both; margin-top:30px;}
+#fullServiceList a{ max-width:300px; height:40px; }
+
+/*** PROFILE ADJUSTMENTS ***/
+
+#professionalProfile { padding-bottom:40px; }
+#professionalProfile #professionalBlock1{ margin:40px 8% 0 8%; width:84%; display:block; clear:both; }
+#professionalProfile #professionalBlock2{ margin:40px 8% 0 8%; width:84%; display:block; }
+#professionalProfile #professionalBlock2 a{ display:block; margin: 0 0 3% 3%; width:94%; height:45px; text-align:left; padding:10px; }
+#professionalProfile #professionalBlock2 a h2{ font-size: 16px; font-weight: lighter; display: inline; position: absolute; margin: 11px 0 0 80px; }
+#professionalProfile #professionalBlock2 a img{ margin:0 0 0 2%; height: 48px; display:inline; vertical-align:middle; position:absolute;}
+#professionalProfile #professionalBlock2 a span{ display:inline-block; vertical-align:middle; clear:both; margin:10px 0 0 4%; }
+
+/*** PORTFOLIO ADJUSTMENTS ***/
+
+#portfolio .fluidBox2{ width:92%; clear:both; margin:0 0 30px 0; padding:4%; }	
+#portfolio{ padding-bottom: 40px; }
+
+/*** FOOTER ADJUSTMENTS ***/
+
+footer .fluidBox{ margin: 0 0 50px 0; }
+footer .fluidBox h2{ background:none; padding:0; margin:0; color:#469aaa; font-size:30px; line-height:32px; }
+#firstPair{ width:210px; display:inline-block; }
+#secondPair{ width:200px; display:inline-block; vertical-align:top; }
+#secondPair a:nth-of-type(2){ margin:22px 0 0px 0; }
+#map_canvas{ width:100%; max-width:none; }
+footer .fluidBox p, footer .fluidBox a { font-size:14px; }
+
+/*** SERVICES ***/
+
+#detailedInfo article h2 { font-size:24px; }
+
+
+#servicesWrapper .fluidBox2:nth-of-type(3n){ margin-right: 2%; float:left; }
+#servicesWrapper .fluidBox2:nth-of-type(2n){ margin-right: 0; }
+#servicesWrapper .fluidBox2{
+	width:45%;
+	float:left;
+}
+
+#servicesWrapper h1 {font-size:36px; }
+#servicesWrapper .fluidBox2 h2 { display:block; margin-bottom:2px; font-size:12px; }
+#servicesWrapper .fluidBox2 p { display:none !important; }
+#servicesWrapper .fluidBox2 img{ display:inline-block; vertical-align:top; width:auto; margin-right:6px; margin-top:4px; }
+#servicesWrapper .fluidBox2 a{ display:none; }
+
+#detailedInfo h1 {font-size:36px; }
+#detailedInfo article .titleWrapper{ width:96%; padding:2%; display:block; float:left; overflow:hidden; }
+#detailedInfo article .textWrapper{ width:96%; padding:2%; display:block; overflow:hidden; }
+#detailedInfo article h2 { font-size:30px; }
+#detailedInfo article object[type="image/svg+xml"]{ width:50%; margin:12px 25% 16px 25%; }
+#detailedInfo article .titleWrapper > a { width:50%; margin:0 25% 10px 25%; }
+
+/*** ABOUT ME ***/
+
+#profileArticle #profileTextWrap { width: 100%; clear: both; margin-right: 0%; }
+#profileArticle #medalsImages{ width: 100%; margin-top:20px; }
+
+#experienceWrapper { width: 100%; clear: both; }
+#recommendationsBar { width: 100%; clear: both; margin:20px 0; }
+#recommendationsBar #recommendationsHeader { text-align: left; margin-bottom:36px;}
+#recommendationsBar img { width: auto; margin-left:4%; }
+#recommendationsBar h3, #recommendationsBar h4, #recommendationsBar p, #recommendationsBar a  { padding: 0 4%; }
+
+
+#studiesAndCertifications #studiesAndCertsWrapper{ width:100%; }
+#studiesAndCertifications #nutshellBar{ width:100%; margin-top: 20px;}
+#nutshellBar #nutshellHeader{ text-align:left; }
+#nutshellBar #nutshellHeader h2{ margin-left:4%;}
+
+#studiesAndCertifications img#diploma{ max-width:100px; }
+#studiesAndCertifications img#adobeCert{ max-width:190px; }
+
+#nutshellBar article:nth-of-type(2n+1){ display:block; width:100%; float:none; }
+#nutshellBar article:nth-of-type(2n+2){ display:block; width:100%; float:none; }
+
+#aboutMeWrapper h1 {font-size: 52px; line-height: 60px;}
+#profileArticle h2, #Experience h2{ font-size: 40px; }
+#profileArticle img{ height:40px; width:auto;}
+#Experience h2 img{ height:30px; width:auto;}
+
+#recommendationsBar img{ display:none; }
+#profileArticle h2, #Experience h2{ display:block; text-align:center; }
+#recommendationsBar h2 { margin: 8px 0 8px 4%;}
+
+#studiesAndCertifications img.icon {display: block; margin:0 auto 10px auto;}
+#studiesAndCertifications h2{ display:block; font-size:30px; line-height:34px; text-align:center; }
+
+#studiesAndCertifications img#diploma,
+#studiesAndCertifications img#adobeCert,
+#studiesAndCertifications img#mediamindCert{ display:block; float:none; width:60%; max-width:none; margin:15px auto; }
+
+/*** PORTFOLIO ***/
+
+#portfolioWrapperFull { padding: 30px 8%; }
+#portfolioWrapperFull article section.leftSide{ margin-right:0; width:100%; }
+#portfolioWrapperFull article section.leftSide .smallGallery .slideshowWrap { height: 46vw; max-height: 283px; }
+#portfolioWrapperFull article h2{ display:block; margin-bottom:10px; font-size:22px; }
+#portfolioWrapperFull article header .category{ float:none; }
+#portfolioWrapperFull article header{ margin-bottom:25px; }
+#portfolioWrapperFull article section.rightSide{ margin-left:0; width:100%; }
+#portfolioWrapperFull article section.rightSide h3:nth-of-type(1) { margin-top: 22px; }
+
+#portfolioWrapperFull h1{ line-height:49px; font-size:38px; margin-bottom:16px; }
+#portfolioWrapperFull h1 img { height: 50px; width: auto; margin-right: 0px;}
+#portfolioWrapperFull article { width: 90%; padding: 22px 5%; }
+#portfolioWrapperFull article header .category{ padding: 3px 7px; height: 24px; }
+#portfolioWrapperFull article section.rightSide h3:nth-of-type(1), 
+#portfolioWrapperFull article section h3{ margin-top:14px; }
+#portfolioWrapperFull article section.rightSide p{ margin-top:10px; }
+#portfolioWrapperFull article section.leftSide h3:nth-of-type(1){ margin-top:20px; }
+
+/*** TECHNOLOGIES ***/
+
+#technologies header img.icon{ display:block; margin:0 auto 10px auto;} 
+#technologies header h2{ display: block; font-size: 30px; line-height: 34px; text-align: center; }

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 17.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="-49 -48 144 144" enable-background="new -49 -48 144 144" xml:space="preserve">
+<g id="Capa_2" display="none">
+	<g display="inline">
+		
+			<image overflow="visible" width="85" height="85" xlink:href="../../v2/images/grainTexture.png"  transform="matrix(0.8516 0 0 0.8516 -49 -49)">
+		</image>
+		
+			<image overflow="visible" width="85" height="85" xlink:href="../../v2/images/grainTexture.png"  transform="matrix(0.8516 0 0 0.8516 22.6143 -49)">
+		</image>
+		
+			<image overflow="visible" width="85" height="85" xlink:href="../../v2/images/grainTexture.png"  transform="matrix(0.8516 0 0 0.8516 -49 22.9019)">
+		</image>
+		
+			<image overflow="visible" width="85" height="85" xlink:href="../../v2/images/grainTexture.png"  transform="matrix(0.8516 0 0 0.8516 22.6143 22.9019)">
+		</image>
+	</g>
+</g>
+<g id="Capa_1">
+	<g>
+		
+			<image overflow="visible" opacity="0.75" width="153" height="153" xlink:href="FFB119E0.png"  transform="matrix(1 0 0 1 -49 -48)">
+		</image>
+		<g>
+			<g>
+				<path fill="#FFFFFF" d="M20.5-39.3c-33.7,0-61.1,27.4-61.1,61.1c0,33.7,27.4,61.1,61.1,61.1c33.7,0,61.1-27.4,61.1-61.1
+					C81.6-11.9,54.2-39.3,20.5-39.3z M44.5,4.9c0,0-8.8-0.1-12.3,5.4c-1,1.5-2.3,4.2-3.7,7.4h9.3v12.5H23.2c-2.1,4.9-4,9.4-5.3,11.6
+					c-3.2,5.5-8.8,10-13.6,12c-4.8,2-10.5,1.8-10.5,1.8V43.4c0,0,9.1,1.2,14-9.1c4.9-10.3,10.8-29.1,20-36C37.1-8.7,44.5-7,44.5-7
+					V4.9z"/>
+			</g>
+		</g>
+	</g>
+</g>
+</svg>

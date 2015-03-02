@@ -1,0 +1,151 @@
+@charset "utf-8";
+	
+.fluidBox h2{font-size:22px;}
+#headerNav ul li div{ display:block; margin:auto auto; }
+#professionalProfile #professionalBlock2 a h2{ font-size:12px; }
+
+
+.servicesBox h1{ font-size:25px; }
+
+#fullServiceList{
+	width:100%;
+	text-align:center;
+	margin:30px auto;
+	overflow:hidden;
+}
+
+#fullServiceList p#ctaText{
+	font-size:26px;
+	padding:0px;
+	display:inline-block;
+	background:rgba(0,0,0,0.20);
+	padding:12px 12px;
+	color:#FFFFFF;
+}
+
+#fullServiceList a{
+	font-size:26px;
+	width:200px;
+	margin:0 auto;
+	padding:12px 12px;
+	display:inline-block;
+}
+
+.circleBlock{
+	width:23%;
+	margin-right:2.6%;
+}
+
+.circleBlock:nth-child(4){ margin-right:0; }
+
+#circlesContainer{ width:100%; }
+
+/*** Section: Portfolio / adjustments ***/
+
+#portfolio{
+	background-attachment:scroll;
+	background-position:0% 0%;
+}
+
+#portfolio .fluidBox2{ width:96%; padding:2%; margin:0 0 15px 0; display:block; clear:both; position:relative; }	
+#portfolio .fluidBox2 img { position:relative; width:40%; height:auto; display:inline-block; float:left; }
+#portfolio .fluidBox2 p { position:relative; margin:0 0 10px 2%; width:58%; display:inline-block; vertical-align:top;}
+#portfolio .fluidBox2 span { margin:1% 0 0 2%; display:inline-block; clear:both; width:58%; position:relative; bottom:0; right:0; text-align:left; }
+#portfolio .fluidBox2 a { position:relative; bottom:0; right:0; padding:1% 2%; margin:0; background:#469aaa; color:#FFF;}
+
+#servicesWrapper .fluidBox2:nth-of-type(3n){ margin-right: 2%; float:left; }
+#servicesWrapper .fluidBox2:nth-of-type(2n){ margin-right: 0; }
+#servicesWrapper .fluidBox2{
+	width:45%;
+	float:left;
+}
+
+
+
+
+
+
+/*** Section: Profile / adjustments ***/
+
+#professionalProfile{
+	background-attachment:scroll;
+	background-position:0% 0%;
+}
+
+	
+#professionalProfile #professionalBlock2 a{
+	background:rgba(255,255,255,0.10);
+	display:inline-block;
+	margin: 0 0 3% 3%;
+	width:100%;
+	height:45px;
+	text-align:left;
+	padding:10px;
+}
+
+#professionalProfile #professionalBlock2 a h2{ font-size: 16px;font-weight: lighter;display: inline;position: absolute;margin: 12px 0 0 76px; }
+#professionalProfile #professionalBlock2 a img{ margin:0 0 0 2%; height: 46px; display:inline; vertical-align:middle; position:absolute;}
+#professionalProfile #professionalBlock2 a span{ display:inline-block; vertical-align:middle; clear:both; margin:10px 0 0 4%; }
+
+/*** Footer adjustments ***/
+#formBox{ clear:both; display:block; padding:5%; width:90%; margin-top:20px; background:rgba(0,0,0,0.3); border:rgba(255,255,255,0.15) 1px dashed; }
+#formBox p{ margin:10px; height:auto; }
+
+#contactInfo{ width:65%; margin-right:3%;	}
+#bottomNav{ width:28%; padding-left:4%; margin-right:0;}
+
+#contactInfo p, #contactInfo a {
+	vertical-align: top;
+	max-width:210px;
+	display:inline-block;
+}
+
+#firstPair{ width:210px; display:inline-block; }
+#secondPair{ width:200px; display:inline-block; vertical-align:top; }
+#secondPair a:nth-of-type(2){ margin:22px 0 0px 0; }
+#map_canvas{ max-width:100%; }
+
+/*** SERVICES ***/
+
+#detailedInfo article h2 { font-size:24px; }
+
+/*** ABOUT ME ***/
+
+#profileArticle #profileTextWrap { width: 100%; clear: both; margin-right: 0%; }
+#profileArticle #medalsImages{ width: 100%; margin-top:20px; }
+
+#experienceWrapper { width: 100%; clear: both; }
+#recommendationsBar { width: 100%; clear: both; margin:20px 0; }
+#recommendationsBar #recommendationsHeader { text-align: left; margin-bottom:36px;}
+#recommendationsBar img { width: auto; margin-left:4%; }
+#recommendationsBar h3, #recommendationsBar h4, #recommendationsBar p, #recommendationsBar a  { padding: 0 4%; }
+
+
+#studiesAndCertifications #studiesAndCertsWrapper{ width:100%; }
+#studiesAndCertifications #nutshellBar{ width:100%; margin-top: 20px;}
+#nutshellBar #nutshellHeader{ text-align:left; }
+#nutshellBar #nutshellHeader h2{ margin-left:4%;}
+
+#studiesAndCertifications img#diploma{ max-width:100px; }
+#studiesAndCertifications img#adobeCert{ max-width:190px; }
+
+#nutshellBar #firstColumn{ display:inline-block; float:left; width:50%; }
+#nutshellBar #secondColumn{ display:inline-block; float:left; width:50%; }
+
+/*** PORTFOLIO ***/
+
+#portfolioWrapperFull article section.leftSide{ width:100%; }
+#portfolioWrapperFull article section.leftSide .smallGallery { width: 50%; margin-right: 2%; float:left; overflow:hidden; }
+#portfolioWrapperFull article section.rightSide { margin-left: 0; width: 100%; }
+#portfolioWrapperFull article h2{ display:inline-block; }
+#portfolioWrapperFull article section .category{ float:right; }
+#portfolioWrapperFull article section.leftSide h3:nth-of-type(1){ margin-top:0; display:inline-block; }
+#portfolioWrapperFull article section.leftSide p:nth-of-type(1){ display:inline-block; }
+#portfolioWrapperFull article section.rightSide h3:nth-of-type(1){ margin-top:22px; }
+#portfolioWrapperFull article section.leftSide .sampleData{ width:48%; }
+
+/*** TECHNOLOGIES ***/
+
+
+
+

@@ -1,0 +1,143 @@
+@charset "UTF-8";
+/* CSS Document */
+
+div, img{
+	position:absolute;
+}
+
+#stage{
+	left:0px;
+	top:0px;
+	width:298px;
+	height:248px;
+	background-color:#999;
+	border:#000 solid 1px;
+	overflow:hidden;
+	visibility:hidden;
+}
+
+#grayBox{
+	left:0px;
+	top:0px;
+	width:298px;
+	height:248px;
+	background-color:#51626f;
+	border:#000 solid 1px;
+	visibility:visible;
+	text-align:center;
+}
+
+#textAd{
+	font-family:"Arial";
+	font-size:16px;
+	color:#FFF;
+}
+
+#bgd{
+	left:0px;
+	top:0px;
+    }
+	
+#image{
+	left:0px;
+	top:0px;
+}
+	
+#schwabLogo{
+	left:246px;
+	top:6px;
+}
+
+#yellowBox{
+	opacity:0.95;
+	left:10px;
+	top:11px;
+	width:155px;
+	height:155px;
+	background-color:#ede04a;
+	visibility:hidden;
+}
+
+#counter{
+	font-family:Arial, Helvetica, sans-serif;
+	font-style:italic;
+	font-size:50px;
+	font-weight:100;
+	position:absolute;
+	top:0px;
+	left:0px;
+	margin:0px;
+	padding:0px;
+	visibility:hidden;
+	width:400px;
+}
+
+#blackBox{
+	left:6px;
+	top:142px;
+}
+
+#copy1{
+	opacity:0;
+	left:22px;
+	top:20px;
+}
+
+#copy2{
+	opacity:0;
+	left:20px;
+	top:150px;
+}
+
+#copy3{
+	opacity:0;
+	left:68px;
+	top:21px;
+}
+
+#copy4{
+	opacity:0;
+	left:68px;
+	top:112px;
+}
+
+#copy5{
+	font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-size:13px;
+	opacity:0;
+	left:6px;
+	top:198px;
+	width:221px;
+	height:13px;
+	position:absolute;
+	margin:0;
+	padding:0;
+	display:block;
+}
+
+#cta{
+	left:6px;
+	top:219px;
+}
+
+#cta:hover{
+	cursor:pointer;
+}
+
+#sign{
+	opacity:0;
+	left:176px;
+	top:225px;
+}
+
+#exitLayer{
+	top:0px;
+	left:0px;
+	width:300px;
+	height:250px;
+}
+
+#exitLayer:hover{
+	cursor:pointer;
+}
+

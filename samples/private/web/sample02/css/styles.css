@@ -1,0 +1,239 @@
+@charset "UTF-8";
+/* CSS Document */
+
+@font-face {
+    font-family: 'CharlesModernRegular';
+    src: url('../fonts/charlesmodern-regular.eot');
+    src: url('../fonts/charlesmodern-regular.eot') format('embedded-opentype'),
+         url('../fonts/charlesmodern-regular.woff') format('woff'),
+         url('../fonts/charlesmodern-regular.ttf') format('truetype'),
+         url('../fonts/charlesmodern-regular.svg#CharlesModernRegular') format('svg');
+}
+
+*{
+	margin:0px;
+}
+
+body{
+	font-family:"CharlesModernRegular";
+	background:#FFF;
+}
+
+p{
+	margin-bottom:17px;
+}
+
+#stage{
+	position: absolute;
+	width: 320px;
+	height: 1290px;
+	background:#FFF;
+	top: 0px;
+	left: 0px;
+	visibility:hidden;	
+}
+
+#yellowBox{
+	position: absolute;
+	left:11px;
+	top:25px;
+	width:216px;
+	height:218px;
+	background:#ede04b;
+}
+
+#greyBox{
+	position: absolute;
+	left:171px;
+	top:251px;
+	width:139px;
+	height:138px;
+	background:#51626f;
+}
+
+#blackBox{
+	position: absolute;
+	left:237px;
+	top:170px;
+	width:73px;
+	height:73px;
+	background:#000000;
+}
+
+#schwabLogo{
+	position: absolute;
+	left:256px;
+	top:9px;
+	width:55px;
+	height:55px;
+}
+
+#sign{
+	position: absolute;
+	left:157px;
+	top:471px;
+}
+
+#ctaBox{
+	position: absolute;
+	left:11px;
+	top:407px;
+	width:300px;
+	height:37px;
+	background-color:#ede04b;
+}
+
+#iphone{
+	position: absolute;
+	left:24px;
+	top:214px;
+	width:127px;
+	height:193px;
+	background-image:url(../images/iphone.png);
+}
+
+#copy1{
+	position: absolute;
+	left: 13px;
+	top: 17px;
+}
+
+#copy2{
+	position: absolute;
+	left: 13px;
+	top: 94px;
+}
+
+#copy3{
+	position: absolute;
+	left: 13px;
+	top: 117px;
+}
+
+#copy4{
+	position: absolute;
+	left: 13px;
+	top: 141px;
+}
+
+#bullet1{
+	visibility:hidden;
+	position: absolute;
+	left: 13px;
+	top: 94px;
+}
+
+#bullet2{
+	visibility:hidden;
+	position: absolute;
+	left: 13px;
+	top: 117px;
+}
+
+#bullet3{
+	visibility:hidden;
+	position: absolute;
+	left: 13px;
+	top: 141px;
+}
+
+
+#copy5{
+	position: absolute;
+	left: 7px;
+	top: 9px;
+}
+
+#copy6{
+	position: absolute;
+	left: 10px;
+	top: 30px;
+	width: 113px;
+	height: 11px;
+}
+
+#copy7{
+	position: absolute;
+	left: 10px;
+	top: 83px;
+}
+
+#copy8{
+	font-family:"CharlesModernRegular";
+	position: absolute;
+	left: 12px;
+	top: 450px;
+	font-size:8px;
+}
+
+#copy9{
+	font-family:"CharlesModernRegular";
+	position: absolute;
+	left: 12px;
+	top: 476px;
+	font-size:8px;
+	float:left;
+}
+
+#isiArrow{
+	margin-left:3px;
+}
+
+#isiArrowTop{
+	margin-left:3px;
+	-webkit-transform:scaleY(-1);
+	-moz-transform:scaleY(-1);
+	-ms-transform:scaleY(-1);
+	-o-transform:scaleY(-1);
+	transform:scaleY(-1);
+}
+
+#backToTop{
+	font-size:8px;
+}
+
+
+#ctaCopy{
+	position: absolute;
+	left: 64px;
+	top: 10px;
+}
+
+#ctaArrow{
+	position: absolute;
+	left: 236px;
+	top: 15px;
+}
+
+#star1{
+	position: absolute;
+	left: 10px;
+	top: 48px;
+}
+
+#star2{
+	position: absolute;
+	left: 38px;
+	top: 48px;
+}
+
+#star3{
+	position: absolute;
+	left: 67px;
+	top: 48px;
+}
+
+#star4{
+	position: absolute;
+	left: 96px;
+	top: 48px;
+}
+
+#isi{
+	position: absolute;
+	width: 300px;
+	top: 510px;
+	font-family: "CharlesModernRegular";
+	font-size: 9px;
+	left: 10px;
+}

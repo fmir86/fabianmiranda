@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+<meta name="description" content="**CMS FIELD**" />
+<meta name="keywords" content="**CMS FIELD**" />
+<!--#include virtual="/includes/standard_includes.htm"-->
+<title>**CMS FIELD**</title>
+<!--<link href="/styles/master.css" rel="stylesheet" type="text/css"/>-->
+<link href="https://www.huntington.com/styles/master.css" rel="stylesheet" type="text/css" />
+<link href="css/landing.css" rel="stylesheet" type="text/css" />
+<!--[if IE 7 ]>
+  <link rel="stylesheet" href="css/landing-IE7.css" type="text/css" media="all">
+  <![endif]-->
+<!--[if IE 8 ]>
+  <link rel="stylesheet" href="css/landing-IE8.css" type="text/css" media="all">
+  <![endif]-->
+<style type="text/css"></style>
+<!-- REMOVE THIS COMMENT AND ASSIGN VALUES IF FOLLOWING JAVASCRIPT IS REQUIRED
+  <script language="JavaScript">
+    var s_events = "** CMS FIELD **";
+    var s_pageName = ** CMS FIELD **"
+             </script>
+             REMOVE THIS CLOSING COMMENT IF ABOVE JAVASCRIPT IS REQUIRED -->
+</head>
+<body>
+    <div id="container"> 
+		<!--#include virtual="/includes/nav_main_include.htm"-->
+        <div id="content"> 
+            <div id="landing">
+                <div class="title"><img src="images/mma-title-image.jpg" /></div>
+                
+                <div id="block-one">
+                    <img src="images/left-side-percentage.jpg" width="258" height="88" alt="percentage" />
+                    <p class="style0" id="textbox1">$20,000 Minimum Balance To Open<br/>And A Qualifying Checking Account.</p>
+                
+                    <div id="ctaBoxContainer">
+                        <p id="seeBelowLink"><a href="#info" id="info">See below for important information</a></p>
+                        <a href="https://oao.huntington.com/OAO/login.htm?spc=QF&adspc=QK"><img id="cta" src="images/call-to-action.png" width="429" height="69" alt="Sign up / Apply online" /></a>
+                    </div>
+                </div>
+                
+              <div id="block-two">
+              	
+                <div id="topShadow"></div>
+                <div id="bottomShadow"></div>
+                
+                <div id="block-two-1">
+                        <p class="style1">For customers looking for more than flat deposit interest rates for their savings. But less risk than stock market investments. Huntington&rsquo;s Premier Plus Money Market Account offers a smarter savings option.</p>
+                        <img src="images/divisor.gif" width="751" height="2" alt="divisor" id="divisor1"/>
+                        <img src="images/greenCopy1.png" width="661" height="22" alt="With Premier Plus MMA, our customers receive:"/>
+                        
+                        <div id="bulletsBlock">
+                                <ul>
+                                    <li class="style2">Competitive 1.01% APY</li>
+                                    <li class="style2">Free overdraft transfers (when tied to a Huntington checking account)</li>
+                                    <li class="style2">FDIC Insurance (up to customer applicable limits)</li>
+                                    <li class="style2">24-Hour Grace Overdraft Fee Relief</li>
+                                  <li class="style2">Up to six withdrawals per month (ATM and branch access)</li>
+                                </ul>
+                        </div>
+                    
+                        <img src="images/divisor.gif" width="751" height="2" alt="divisor" id="divisor2"/>
+                    	<p class="style1">Click below to start your online application or visit any Huntington branch to open your account today. And get ready to watch your savings grow.</p>
+
+                        <div id="orange-link">
+                          <a href="#" id="findLink"><img src="images/pointer.png" width="14" height="16" alt="pointer" id="pointer" /><p class="style3">Find a Huntington local branch</p></a>
+                        </div>
+                        
+                        <a href="https://oao.huntington.com/OAO/login.htm?spc=QF&adspc=QK"><img src="images/cta-small.png" alt="Sign up for a Premier Plus MMAAPPLY ONLINE" width="309" height="65" id="cta-small"/></a>
+                  
+                  </div>
+                    
+                    
+                </div>
+                
+                <div class="notes">
+                	<a name="info"></a>
+                	<p><sup>1</sup>Annual percentage yield (APY) is accurate as of December 20, 2013. The rate for the $20,000.00 to $49,999.99; $50,000.00 to $99,999.99; and, $100,000.00 to $2,000,000.99 balance tiers is 1.00% (1.01% APY) and is guaranteed for at least 90 days. After that time the rate is not guaranteed and may change at any time as the Huntington Premier Plus Money Market Account is a variable rate account. The interest rate for the $2,000,001.99 to $99,999,999.99 balance tier is currently 0.25% (0.25% APY). Initial minimum opening deposit required is $20,000.00 and must be new money to Huntington. When your balance falls into a particular rate tier, your entire balance will earn the applicable rate in effect for that tier, i.e., if your balance reaches $2,000,001.00 or more, your entire balance will earn that lower rate. Balances below $20,000.00 are subject to a $20.00 per month maintenance fee. Interest is compounded and paid monthly. Some monthly withdrawal limitations apply. Limit one account per household. CHECKING ACCOUNT REQUIREMENT &amp; CONDITIONS: Customer must also have, or open, a qualifying Huntington consumer checking account with a $1,500.00 balance which must be titled in the same name(s) as the Huntington Premier Plus Money Market Account. Depending on your type of checking account, it may or may not be interest-bearing which will impact the overall return of your total funds on deposit. If checking account is not maintained, the Huntington Premier Plus Money Market Account will be converted to our Huntington Premier Money Market Account which has lower rates in all respective rate tiers and does not receive the rates listed above on any balance tier. APPLICABLE TO BOTH Huntington Premier Plus Money Market Account AND CHECKING ACCOUNTS: Fees may reduce earnings on the account. An Early Account Closing fee will apply to accounts closed within 180 days of opening. We reserve the right to limit acceptance of deposits greater than $100,000.00. Not valid with any other offer. FDIC insured up to applicable limits.</p>
+                </div>
+                
+            </div>
+            <!-- /#landing --> 
+        </div>
+        <!-- /#content --> 
+        <!--#include virtual="/includes/footer_include.htm"-->
+    </div>
+    <!-- /#container -->
+</body>
+</html>

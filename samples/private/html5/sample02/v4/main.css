@@ -1,0 +1,224 @@
+body{ margin:0; background-color:#FFF; }
+img, div{ position:absolute; margin:0px; padding:0px;}
+
+#banner{
+	position:relative;
+	width:298px;
+	height:248px;
+	border:1px solid #000;
+	overflow:hidden;
+}
+
+#bg{ top:0px; left:0px; }
+#textBoard{ top:34px; left:25px; }
+#flo{ left:300px; top:115px; }
+#logo{ top:221px; left:27px; }
+
+#divider{
+	width:1px;
+	height:55px;
+	left:174px;
+	top:33px;
+	opacity:.5;
+}
+
+#boxGroup{
+	left:186px;
+	top:32px;
+}
+
+#boxGroup #strip2{ top:19px; }
+#boxGroup #strip3{ top:38px; }
+
+#data1{
+	padding-top:3px;
+	left:200px;
+	top:35px;
+	width:40px;
+	height:14px;
+	overflow:hidden;
+}
+
+#data2{
+	padding-top:3px;
+	left:200px;
+	top:54px;
+	width:40px;
+	height:13px;
+	overflow:hidden;
+}
+
+#data3{
+	padding-top:3px;
+	left:200px;
+	top:73px;
+	width:40px;
+	height:13px;
+	overflow:hidden;
+}
+
+#ball {
+    top: 90px;
+    left: -36px;
+    -moz-transform: rotate(-1000deg);
+    -ms-transform: rotate(-1000deg);
+    -o-transform: rotate(-1000deg);
+    -webkit-transform: rotate(-1000deg);
+    transform: rotate(-1000deg)
+}
+
+#finalCopy{
+	left:10px;
+	top:107px;
+	clip:rect(0px,0px,30px,0px);
+}
+
+#high1, #high2, #high3{
+	opacity:0;
+	top:0px;
+}
+
+#digit1, #digit2, #digit3, #digit4, #digit5, #digit6, #digit7, #digit8, #digit9{
+	top:-20px;
+}
+
+#high2, #digit2, #digit5, #digit8{
+	left:14px;
+}
+
+#high3, #digit3, #digit6, #digit9{
+	left:28px;
+}
+
+/********* Animations **********/
+
+#ball.in {
+    top: 30px;
+    left: 300px;
+    -moz-transform: rotate(0deg);
+    -ms-transform: rotate(0deg);
+    -o-transform: rotate(0deg);
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    -moz-transition: left ease-out 0.6s, top cubic-bezier(0, 0, 0.82, 0.2) 0.6s, -moz-transform ease-out 0.6s;
+    -o-transition: left ease-out 0.6s, top cubic-bezier(0, 0, 0.82, 0.2) 0.6s, -o-transform ease-out 0.6s;
+    -webkit-transition: left ease-out 0.6s, top cubic-bezier(0, 0, 0.82, 0.2) 0.6s, -webkit-transform ease-out 0.6s;
+    transition: left ease-out 0.6s, top cubic-bezier(0, 0, 0.82, 0.2) 0.6s, transform ease-out 0.6s
+    }
+#flo.in{ 
+	left:174px; top:115px;
+	transition: ease-out 0.25s;
+}
+
+
+#finalCopy.in{
+	clip:rect(0px,210px,30px,0px);
+	transition: ease-out 0.6s;
+}
+
+#digit1.fadeIn, #digit2.fadeIn, #digit3.fadeIn,
+#digit4.fadeIn, #digit5.fadeIn, #digit6.fadeIn,
+#digit7.fadeIn, #digit8.fadeIn, #digit9.fadeIn{
+	top:0px;
+	transition: ease-in-out 0.25s;
+}
+
+#high1.fadeIn, #high2.fadeIn, #high3.fadeIn{
+	opacity:1;
+	transition: ease-in-out 0.25s;
+}
+
+#digit1.fadeOut, #digit2.fadeOut, #digit3.fadeOut{
+	opacity:0;
+	top:0px;
+	transform:scale(1, 1);
+	transition: ease-in-out 0.15s;
+}
+
+#shimmer.on{
+	left:51px;
+	transition: ease-in-out 0.5s;
+}
+
+/********* ARN ZIP CODE **********/
+
+#zipForm {
+	top:192px;
+	left:17px;
+	z-index:5;
+	width:142px;
+	height:23px;
+	padding:1px;
+	border-radius:7px;
+	background:#FFF;
+	line-height:1;
+	-webkit-transition:left .5s;
+	        transition:left .5s;
+}
+
+
+#zip {
+	-moz-box-sizing:border-box;
+	     box-sizing:border-box;
+	width:100%;
+	height:100%;
+	padding:4px 6em 4px 4px;
+	border:1px solid #CCC;
+	border-radius:6px;
+	margin:0;
+	padding-left:20px;
+	box-shadow:inset 0 0 5px #CCC;
+	vertical-align:top;
+	font-size:9px;
+}
+
+#shimmerMask{
+	position:absolute;
+	top:3px;
+	right:3px;
+	bottom:3px;
+	width:51px;
+	border:0;
+	height:21px;
+	border-radius:6px;
+	margin:0;
+	overflow:hidden;
+}
+
+#shimmer{	
+	top:0px; 
+	left:-51px;
+	width:51px;
+	height:21px;
+	background: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,.5) 50%,rgba(255,255,255,0.04) 98%,rgba(255,255,255,0) 100%); /* W3C */
+}
+
+#activeArea{
+	position:absolute;
+	top:3px;
+	right:3px;
+	bottom:3px;
+	border:0;
+	width:51px;
+	height:21px;
+}
+
+#activeArea:hover{
+	cursor:pointer;
+}
+
+#zipSubmit {
+	position:absolute;
+	top:3px;
+	right:3px;
+	bottom:3px;
+	width:51px;
+	border:0;
+	border-radius:5px;
+	margin:0;
+	background:#F48400;
+	background-image:url(img/ctaSkin.png);
+	color:#FFF;
+	font-size:9px;
+	text-transform:uppercase;
+}

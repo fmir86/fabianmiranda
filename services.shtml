@@ -1,0 +1,297 @@
+<!doctype html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+		
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="description" content="Fabian Miranda Creative Technologist. Services: Web Design, Web Development, Games Development, Mobile apps, E-learning apps, Email-marketing, Digital production services.">
+		<meta name="keywords" content="Fabian Miranda, Services, Web Design, Web Development, Game Development, Flash Animation, HTML5 Animation, E-Learning Development, E-Mail Marketing, Online Advertising, OLA, Rich Media, DOubleClick production">
+		<meta name="robots" content="index,follow">
+		<meta name="googlebot" content="index, follow"> 
+		<meta name="rating" content="GENERAL"> 
+		<meta name="author" content="Fabian Miranda Palma"> 
+		<meta name="revisit-after" content="5 days"> 
+				
+		<title>Fabian Miranda | Services</title>
+		
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600,400' rel='stylesheet' type='text/css'>
+		
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/services.css" />
+		<link rel="stylesheet" type="text/css" href="css/modalForm.css" />
+		<link rel="stylesheet" type="text/css" media="(max-width: 860px) and (min-width: 631px)" href="css/tablet.css" />
+		<link rel="stylesheet" type="text/css" media="(max-width: 630px)" href="css/phone.css" />
+        
+				
+	</head>
+	
+	<body>
+		<div id="container">
+			<!--#include file="header.html" -->
+			
+			<section id="servicesWrapper">
+			
+				<h1><img alt="Services Icon" src="images/tools.svg" width="52" height="47"/> SERVICES</h1>
+			
+				<div class="fluidBox2" onClick="window.location.hash='webDesign'">
+					<img src="images/globe.svg" alt="Web Design" width="29" height="31"/>
+                    <h2> Web Design.</h2>
+					<p id="infoBox1">Creation of web experiences that challenges the established.</p>
+					<a href="#webDesign">GET DETAILS</a>
+				</div>
+				
+				<div class="fluidBox2" onClick="window.location.hash='development'">
+					<img src="images/code.svg" alt="Development" width="50" height="31"/>
+                    <h2>Development.</h2>
+					<p>Reliable structure for an optimal performance and scalability.</p>
+					<a href="#development">GET DETAILS</a>
+				</div>
+				
+				<div class="fluidBox2" onClick="window.location.hash='touchAndMobile'">
+					<img src="images/touch.svg" alt="Toucn & Mobile" width="40" height="31"/>
+                    <h2>Touch & Mobile.</h2>
+					<p>Responsive web content that works on every platform or device.</p>
+					<a href="#touchAndMobile">GET DETAILS</a>
+				</div>
+				
+				<div class="fluidBox2" onClick="window.location.hash='webGames'">
+					<img src="images/webGames.svg" alt="Web Games" width="38" height="31"/>
+                    <h2>Web Games.</h2>
+					<p>The most engaging and interactive way to deliver your message.</p>
+					<a href="#webGames">GET DETAILS</a>
+				</div>
+				
+				<div class="fluidBox2" onClick="window.location.hash='eLearning'">
+					<img src="images/eLearning.svg" alt="E-Learning" width="36" height="31"/>
+                    <h2>E-Learning.</h2>
+					<p>Educate through the web. Teach while you amuse your audience.</p>
+					<a href="#eLearning">GET DETAILS</a>
+				</div>
+				
+				<div class="fluidBox2" onClick="window.location.hash='olaAndRichMedia'">
+					<img src="images/olaAndRM.svg" alt="Online Advertising" width="61" height="31"/>
+                    <h2>OLA & Rich Media.</h2>
+					<p>Execution of Ads campaigns according to strict specifications.</p>
+					<a href="#olaAndRichMedia">GET DETAILS</a>
+				</div>
+				
+				<div class="fluidBox2" onClick="window.location.hash='motionDesign'">
+					<img src="images/motion.svg" alt="Motion Design" width="84" height="31"/>
+                    <h2>Motion Design.</h2>
+					<p>Characters animation, animated interfaces, and more.</p>
+					<a href="#motionDesign">GET DETAILS</a>
+				</div>
+				
+				<div class="fluidBox2" onClick="window.location.hash='creativeConcepting'">
+					<img src="images/creative.svg" alt="Creative Concepting" width="44" height="31"/>
+                    <h2>Creative Concepting.</h2>
+					<p> Design and prototyping of creative concetps.</p>
+					<a href="#creativeConcepting">READ MORE</a>
+				</div>
+				
+				<div class="fluidBox2" onClick="window.location.hash='webOptimization'">
+					<img src="images/optimize.svg" alt="Web Optimization" width="27" height="31"/>
+                    <h2>Web Optimization.</h2>
+					<p>Improve the performance of your web content.</p>
+					<a href="#webOptimization">READ MORE</a>
+				</div>
+				
+				<div class="fluidBox2" onClick="window.location.hash='htmlEmails'">
+					<img src="images/emails.svg" alt="HTML Emails" width="44" height="31"/>
+                    <h2> HTML Emails.</h2>
+					<p>Well coded emails that show appropriately on any client.</p>
+					<a href="#htmlEmails">READ MORE</a>
+				</div>
+				
+			</section>
+            
+            
+            
+            <section id="detailedInfo">
+			
+            	<h1>DETAILED INFO</h1>
+            	
+				<article>
+                	<a id="webDesign"></a>
+                	<div class="titleWrapper">
+                        <h2>Web Design</h2>
+                        <object data="images/globe.svg" type="image/svg+xml"></object>
+                        <a class="quoteFormBtn">GET A QUOTE</a>
+					</div>
+                    <div class="textWrapper">
+                        <p>Creation of web experiences that challenges the established, taking in count the actual tendencies but always adding those details that marks difference.</p>
+                        <p>There is no one “magic formula” to generate successful and eye-catching sites, every client is a unique case, which needs to be handled and analyzed properly in order to emphasize in a graphic manner those qualities that makes it shine over its competitors. Also taking in count the target audience is an important detail when the interface, the look and feel and the interaction model are planned.</p>
+                        <p>With me, you have guaranteed that your site will be designed and executed through an integral approach.</p>
+                        <a href="#">Return to Top</a>
+                    </div>
+				</article>
+				
+				<article>
+                	<a id="development"></a>
+                	<div class="titleWrapper">
+                        <h2>Development</h2>
+                        <object data="images/code.svg" type="image/svg+xml"></object>
+                        <a class="quoteFormBtn">GET A QUOTE</a>
+					</div>
+                    <div class="textWrapper">
+                        <p>It's important to understand how necesary is to plan a "rock solid" structure that guarantees an optimal functioning and scalability.</p>
+                        <p>This is the key to create sustainable projects and having success in the long term.</p>
+                        <p>Set a development plan which allows the software to evolve and grow eficiently is as much important as picking the right tools and technologies to develop the desired product.</p>
+                        <a href="#">Return to Top</a>
+                    </div>
+				</article>
+				
+				<article>
+                	<a id="touchAndMobile"></a>
+                    <div class="titleWrapper">
+                    	<h2>Touch & Mobile</h2>
+                        <object data="images/touch.svg" type="image/svg+xml"></object>
+                        <a class="quoteFormBtn">GET A QUOTE</a>
+</div>
+                    <div class="textWrapper">
+                        <p>This new form to access the web is growing exponentially and so on the needs of people and companies who have presence in the web.</p>
+                        <p>The mobile devices are here to stay, nowadays people spend more time accessing the web through their smart devices rather than desktop computers.</p>
+                        <p>I have great experience creating mobile landing pages, ipad applications, programming GUIs with complex touch gestures. Using cross-platform technologies such as html5 and Adobe Air that facilitates the creation of one single version of the app which is  fully portable, without the need of generate an specific version depending of the target devices.</p>
+                        <a href="#">Return to Top</a>
+                    </div>
+				</article>
+				
+				<article>
+                	<a id="webGames"></a>
+                    <div class="titleWrapper">
+                        <h2>Web Games</h2>
+                        <object data="images/webGames.svg" type="image/svg+xml"></object>
+                        <a class="quoteFormBtn">GET A QUOTE</a>
+</div>
+                    <div class="textWrapper">
+                    	<p>If there is something funnier than play games… is create them!</p>
+                        <p>A game is a great way to deliver your message to the audience, is a very engaging-interactive experience that surely captivates considerable amounts of users.</p>
+                        <p>Recently, a bunch of “casual games” have demonstrated how effective are this type of games monetizing through the sell of virtual goods, special features, and other stuff.</p>
+						<p>As the lead developer, I was working in some interesting web games developed using the Flash platform and deliver those vía facebook.</p>
+                        <a href="#">Return to Top</a>
+                    </div>
+				</article>
+				
+				<article>
+                	<a id="eLearning"></a>
+                    <div class="titleWrapper">
+                        <h2>E-Learning</h2>
+                        <object data="images/eLearning.svg" type="image/svg+xml"></object>
+                        <a class="quoteFormBtn">GET A QUOTE</a>
+</div>
+                    <div class="textWrapper">
+                        <p>“Learn while you enjoy”, that´s the secret. Create fun experiences that turn “boring” topics into great adventures maintaining the receptor´s interest is the best way to educate and assure an optimal rate of data retention.</p>
+                        <p>I have been involved in the development of a wide range of e-learning apps, from colorful and beautiful games for teaching kids, to create touch apps for senior people to educate them about their illness.</p>
+                        <a href="#">Return to Top</a>
+                    </div>
+				</article>
+				
+				<article>
+                	<a id="olaAndRichMedia"></a>
+                    <div class="titleWrapper">
+                        <h2>OLA & Rich Media</h2>
+                        <object data="images/olaAndRM.svg" type="image/svg+xml"></object>
+                        <a class="quoteFormBtn">GET A QUOTE</a>
+</div>
+                    <div class="textWrapper">
+                        <p>Is not just about create flash banners for web advertising, actually is about understand and produce ads according to the workflow and specifications of several actors. This includes media vendors, traffickers, publishers, and clients with specific needs.</p>
+                        <p>Also pick the technology to produce is a key point nowadays since the mobile revolution has reached the OLA world too, and depending of your target audience you will have to choose the traditional Flash, the arising HTML5, or a combination of both.</p>
+                        <p>I am a certified expert in Flash Professional, and a html5 enthusiast which great experience applying its features in online advertising pieces. Also fully certified by the most important media vendors such as DoubleClick and Mediamind.</p>
+                        <p>I have great capacity to understand what the client wants, I am used to work with creative teams and cooperate with them in order to enhance and optimize concepts, which guarantees that a great piece of work would be brought to life.</p>
+                        <a href="#">Return to Top</a>
+                    </div>
+				</article>
+				
+				<article>
+                	<a id="motionDesign"></a>
+                    <div class="titleWrapper">
+                        <h2>Motion Design</h2>
+                        <object data="images/motion.svg" type="image/svg+xml"></object>
+                        <a class="quoteFormBtn">GET A QUOTE</a>
+</div>
+                    <div class="textWrapper">
+                        <p>Bring static concepts to live is the most exciting task, adding personality to characters, give them specific gestures, manners.</p>
+                        <p>Making things look realistic when they move, or exaggerate a little the timing if a more dramatic result is wanted. All those details demand an incredible amount of attention, you have to be a good observer and look around carefully, the people and the things, to understand how they move and why they do it in a specific fashion.</p>
+                        <p>With 10 years of experience generating this kind of media, mainly in Flash Professional, I can say with great confidence that you motion design project would be in great hands with me.</p>
+                        <a href="#">Return to Top</a>
+                    </div>
+				</article>
+				
+				<article>
+                	<a id="creativeConcepting"></a>
+                    <div class="titleWrapper">
+                        <h2>Creative Concepting</h2>
+                        <object data="images/creative.svg" type="image/svg+xml"></object>
+                        <a class="quoteFormBtn">GET A QUOTE</a>
+</div>
+                    <div class="textWrapper">
+                        <p>Taking clients ideas, know and understand their needs, their target audience, and synthesize all that in a creative concept is quite an adventure.</p>
+						<p>If a given process is followed it´s almost sure that a great product idea would be generated, from the sketching and mock-ups to the final art, every step is important if we want to be sure that the final approach would be the best possible.</p>
+						<p>I have been working in design teams in charge of generate creative concepts for important brands like Dell and Progressive. The concepting of online advertising pieces is my speciality.</p>
+                        <a href="#">Return to Top</a>
+                    </div>
+				</article>
+				
+				<article>
+                	<a id="webOptimization"></a>
+                    <div class="titleWrapper">
+                        <h2>Web Optimization</h2>
+                        <object data="images/optimize.svg" type="image/svg+xml"></object>
+                        <a class="quoteFormBtn">GET A QUOTE</a>
+</div>
+                    <div class="textWrapper">
+                        <p>In our fast-paced society, it is crucial to share your message with the most efficiency possible.</p>
+						<p>Part of it, is to ensure that the time load of your web content is short. This is achieved through a proper optimization of your assets, this means images, script files, video, flash files, etc.</p>
+						<p>Knowing the goodness of each media format, knowing the tips and tricks to reduce kbytes size in images and videos, and the best practices to generate minimal and optimal scripts, is part of the secrets that you need to dominate to create lightweight content for the web.</p>
+						<p>Also understand that the mobile users are very often connected to the web through narrow-band data plans, detecting this type of devices and connections, and offer a minified version of your web content is a very common practice and very appreciated by these sector of the audience.</p>
+                        <a href="#">Return to Top</a>
+                    </div>
+				</article>
+				
+				<article>
+                	<a id="htmlEmails"></a>
+                    <div class="titleWrapper">
+                        <h2> HTML Emails</h2>
+                        <object data="images/emails.svg" type="image/svg+xml"></object>
+                    	<a class="quoteFormBtn">GET A QUOTE</a>
+</div>
+                    <div class="textWrapper">
+                      	<p>Maybe the most “ancient” mode of web advertising, but still one of the most effective ones.</p>
+						<p>Now and more than ever, email marketing is considered as one important cornerstone of every well planned web-marketing campaign. But its proper execution is vital, and the several browsers and email clients out there makes this process very complex, since of course you want your email announcement  showing nice and clean across every email client and platform.</p>
+						<p>An strict quality assurance strategy  is needed since the very beginning of the production phase and a rock-solid methodology of development must be followed.</p>
+						<p>As team lead I have been the chance to learn from the best ones in this field, and teach to other teammates and set standards and best practices. Also I am currently researching about the new wave of email development, the “responsive” emails which modifies its layout according to the screen size of the user´s device.</p>
+                        <a href="#">Return to Top</a>
+                    </div>
+				</article>
+            </section>
+			
+			<!--#include file="footer.html" -->
+            
+            
+		</div>
+		<script src="js/detectmobiledevices.js" type="text/javascript"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.14.2/TweenMax.min.js" type="text/javascript"></script>
+		<script src="https://maps.googleapis.com/maps/api/js" type="text/javascript"></script>
+		<script src="js/clamp.js"></script>
+
+		<script src="js/header.js" type="text/javascript"></script>
+		<script src="js/footer.js" type="text/javascript"></script>
+		<script src="js/services.js" type="text/javascript"></script>
+		<script src="js/modalForm.js" type="text/javascript"></script>
+        
+		
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			
+			ga('create', 'UA-31687515-1', 'auto');
+			ga('send', 'pageview');
+		</script>
+		
+	</body>
+	
+</html>

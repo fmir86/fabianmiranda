@@ -1,0 +1,230 @@
+@charset "UTF-8";
+
+div, img{
+	position:absolute;
+}
+
+#preloader {
+	top:0px;
+	left:0px;
+	height: 248px;
+	width: 298px;
+	border: 1px #000000 solid;
+	background-color:#999;
+	visibility:visible;
+	font-family:Arial, Helvetica, sans-serif;
+	text-align:center;
+	color:#333;
+	font-size:14px;
+}
+
+#stage {
+	position:absolute;
+	top:0px;
+	left:0px;
+	height: 248px;
+	width: 298px;
+	border: 1px #000000 solid;
+	overflow:hidden;
+	background-image:url(bg.jpg);
+	visibility:hidden;
+}
+
+#exitLayer{
+	top:0px;
+	left:0px;
+	width:300px;
+	height:250px;
+}
+
+#schwabLogo{
+	width:48px;
+	height:47px;
+	left:228px;
+	top:16px;
+}
+
+#yellowBox1 {
+	left:26px;
+	top:50px;
+}
+
+#picture{
+	top:0px;
+	left:0px;
+	width:300px;
+	height:250px;
+}
+
+#yellowBox2{
+	width:136px;
+	height:136px;
+	left:11px;
+	top:103px;
+}
+
+#greyBox1{
+	left:37px;
+	top:37px;
+}
+
+#yellowBox3{
+	left:69px;
+	top:16px;
+}
+
+#blackBox{
+	left:12px;
+	top:117px;
+}
+
+#navBar{
+	left:12px;
+	top:170px;
+}
+
+#navBar img{
+	position:static;
+	margin-right:5px;
+}
+
+#cta1{
+	left:184px;
+	top:184px;
+	opacity:0;
+}
+
+#cta2{
+	left:12px;
+	top:226px;
+	opacity:0;
+}
+
+#sign{
+	left:138px;
+	top:226px;
+	opacity:0;
+}
+
+#transparentTab{
+	width:20px;
+	height:250px;
+	background-color:#425563;
+	opacity:0.5;
+}
+
+#solidArea{
+	width:300px;
+	height:250px;
+	background-color:#425563;
+	left:20px;
+	overflow:hidden;
+}
+
+#contentStrip{
+	width:1460px;
+	height:250px;
+	left:0px;
+}
+
+
+#content1{
+	width:342px;
+	height:250px;
+}
+
+#content2{
+	left:342px;
+	width:342px;
+	height:250px;
+}
+
+#content3{
+	left:684px;
+	width:342px;
+	height:250px;
+}
+
+#content4{
+	left:1026px;
+	width:342px;
+	height:250px;
+}
+
+#text1, #text2, #text3, #text4{
+	top:15px;
+	left:15px;
+}
+
+#cpu1, #cpu2, #cpu3, #cpu4{
+	left:175px;
+	top:64px;
+}
+
+#logo2{
+	top:5px;
+	right:7px;
+}
+
+#bottomBar{
+	width:300px;
+	height:28px;
+	background-color:#808a92;
+	top:220px;
+	left:20px;
+}
+
+#slideshow{
+	left:300px;
+}
+
+#arrow{
+	left:4px;
+	top:116px;
+}
+
+#replayButton{
+	left:10px;
+	top:12px;
+	opacity:0;
+}
+
+#backButton{
+	left:13px;
+	top:8px;
+}
+
+#signUpButton{
+	left:230px;
+	top:8px;
+}
+
+#itemChanger{
+	top:10px;
+	left:124px;
+}
+
+#itemChanger div{
+	float:left;
+	position:static;
+	height:10px;
+	width:8px;
+	margin-right:7px;
+	background-color:#FFF;
+}
+
+/* Elements with hover state */
+
+#discoverButton,
+#evaluateButton,
+#boostButton,
+#enjoyButton,
+#exitLayer:hover,
+#cta2:hover,
+#replayButton:hover,
+#transparentTab:hover,
+#itemChanger div:hover,
+#signUpButton:hover,
+#backButton{
+	cursor:pointer;
+}

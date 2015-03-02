@@ -1,0 +1,286 @@
+<!doctype html>
+
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="initial-scale=1, maximum-scale=1">
+		
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<meta name="description" content="Fabian Miranda Creative Technologist. About me, experience, references, studies and certifications, doubleclick certified, adobe certified expert, rich media expert">
+		<meta name="keywords" content="Fabian Miranda, About Me, Experience, References, Studies And Certifications, Flash Adobe Certified Expert, DoubleClick Certified Developer, Game Development, Programmer, Animator, Motion Designer, Mobile Developer">
+		<meta name="robots" content="index,follow">
+		<meta name="googlebot" content="index, follow"> 
+		<meta name="rating" content="GENERAL"> 
+		<meta name="author" content="Fabian Miranda Palma"> 
+		<meta name="revisit-after" content="5 days"> 
+				
+		<title>Fabian Miranda | About Me</title>
+		
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:300,600,400' rel='stylesheet' type='text/css'>
+		
+		<link rel="stylesheet" type="text/css" href="css/main.css">
+		<link rel="stylesheet" type="text/css" href="css/aboutme.css" />
+		<link rel="stylesheet" type="text/css" href="css/modalForm.css" />
+		<link rel="stylesheet" type="text/css" media="(max-width: 860px) and (min-width: 631px)" href="css/tablet.css" />
+		<link rel="stylesheet" type="text/css" media="(max-width: 630px)" href="css/phone.css" />
+        
+				
+	</head>
+	
+	<body>
+		<div id="container">
+			<!--#include file="header.html" -->
+			
+			<section id="aboutMeWrapper">
+				
+				<h1>ABOUT ME</h1>
+				
+				<article id="profileArticle">
+					<a id="profile" class="innerLink"></a>
+					<h2><img src="images/profile.svg" width="47" height="47" alt="profile icon"/> PROFILE</h2>
+					
+					<div id="profileTextWrap">
+						<p>As a "natural born" motion designer and a well trained programmer I love to combine both disciplines to create stunning web experiences that exceeds the norm.</p>
+						<p>I am a veteran of a thousand battles in Flash Professional which definitely is my biggest area of expertise. From small banners to huge applications. Whatever the challenge is, it doesn't matter since I have probably been there. This phase of my career gave me the chance to “think outside of the box” when it comes to design and develop web content and interactive media. Now I continue applying this approach, but taking advantage of emerging technologies like html5, which allow us as developers to reach bigger audiences, especially that fast-growing community of mobile users.</p>
+						<p>As a self-taught person I am constantly learning, always trying to be one step forward to the client´s needs. Specialized in front-end technologies and object oriented languages I really enjoy to create content in platforms such as html5 and Flash.</p>
+					</div>
+					
+					<div id="medalsImages">
+						<p><span class="quotes">"</span>I am a <span class="label">passionate animator</span>
+						and a <span class="label">tech&nbsp;enthusiast</span>,
+						with more than <span class="label">10&nbsp;years</span> of experience
+						in the <span class="label">Digital&nbsp;Production</span> Industry.<span class="quotes">"</span></p>
+						
+						<img src="images/flash8Medal.png" alt="Flash 8 Medal"/>
+						<img src="images/html5Medal.png" alt="HTML5 Medal"/>
+						<img src="images/flashCCMedal.png" alt="Flash CC Medal"/>
+					</div>
+					
+				</article>
+				
+				<div id="Experience">
+					<a id="experience" class="innerLink"></a>
+					<section id="experienceWrapper">
+					
+						<h2><img src="images/sandclock.svg" width="44" height="44" alt="Experience Icon"/>EXPERIENCE</h2>
+						
+						<article>
+							<h3>Freelance Digital Producer</h3>
+							<h4>January 2004 - Present</h4>
+							<p>Designing and deploying websites mainly for small businesses. Also performing as Graphic Designer and Illustrator creating interfaces, illustrations, graphic advertisement (Print and Digital). Freelance OLA producer, and front-end developer. Currently I am looking forward to be part of exciting projects that challenges me, and give the chance to gain experience in new fields.</p>
+						</article>
+						
+						<article>
+							<h3>Motion/Design Lead <span class="workplace">@ HPS Magma (aka Havas Magma Studios).</span></h3>
+							<h4>August 2011 – Present (2 years 8 months)</h4>
+							<p>Leading a team of 8 motion designers, I am mostly in charge of supervising the good performance of each team member, and for the correct development of every project on our charge which includes OLA projects, Rich media, emails production, among others. Developing strategies to train the team in the emerging technologies and evaluate them to see if each member meets the organization expectations. Creating Mobile/Touch applications using Adobe AIR, and mobile-ready web content using html5, css, and javascript.</p>
+						</article>
+						
+						<article>
+							<h3>Senior Flash Animator <span class="workplace">@ MysteryD.</span></h3>
+							<h4>August 2010 – June 2011 (11 months)</h4>
+							<p>Working in a multidisciplinary team developing Web games, social media, and e-learning applications. Performing as the lead animator in several projects working side to side with programmers, graphic designers, sound engineers, and UX specialists. Also I was consolidated as ActionScript Developer. Working in projects organized according to the Agile methodology.</p>
+						</article>
+						
+						<article>
+							<h3>Senior Flash Designer <span class="workplace">@ Digital Arbor.</span></h3>
+							<h4>April 2009 – August 2010 (1 year 5 months)</h4>
+							<p>As senior I was in charge of helping and mentoring 3 Junior Flash Designers, providing them with tools to develop their career path and supervising their work. In charge of provide technical guidance to Project managers, analyzing the viability of projects, also in the creation of estimates. Producing Rich Media campaigns and giving the first steps in ActionScript programming mostly for flash based websites.</p>
+						</article>
+						
+						<article>
+							<h3>Flash Designer <span class="workplace">@ avVenta Worldwide (Accenture)</span></h3>
+							<h4>September 2007 – March 2009 (1 year 7 months)</h4>
+							<p>Production of large Online Advertising campaigns including Standard banners and Rich Media formats. In the last two years at the company I was part of a creative division where I participate in the production of flash based websites, generating eye catching animations and complex interactivity.</p>
+						</article>
+					</section>
+					
+					<aside id="recommendationsBar">
+						<a id="references" class="innerLink"></a>
+						<div id="recommendationsHeader">
+							<img src="images/references.svg" alt="references" height="40" width="54"/>
+							<h2>REFERENCES</h2>
+						</div>
+						
+						<article>
+							<h3>Ricardo Chamberlain</h3>
+							<h4>Project Manager</h4>
+							<p>“Fabian is by far the best interactive developer that I have the pleasure working with. We have worked together in several companies and I know that my projects were always with the best quality, within budget and on time. He is very picky and extremely dedicated to a client’s need. He is also a fast learner, definitely a leader and an amazing person. Having him in a project is a confirmation that everything will go perfect and the client will be happy.”</p>
+							<p class="date">February 24, 2015</p>
+						</article>
+						
+						<article>
+							<h3>Carlos Portela</h3>
+							<h4>Software Architect</h4>
+							<p>“Fabian is a very accomplished graphic artist who can take a description given to him in a Word document and translate it into a high quality illustration in a very short period of time. Fabian has created entire libraries with hundreds of illustrations for me over the years and I am very pleased with the quality of his work and his professionalism. I strongly recommend his work.”</p>
+							<p class="date">January 13, 2012</p>
+						</article>
+						
+						<article>
+							<h3>Jolon Bankey</h3>
+							<h4>Product Development</h4>
+							<p>“Fabian is an amazing Flash animator / motion designer. He's lightning fast, pixel-perfect, and always puts in that extra bit of polish that makes the audience go 'Wow!'. He is an all-around great guy who I really enjoy working with, and brings a very high level of commitment and quality to any project team he is a part of.”</p>
+							<p class="date">July 1, 2011</p> 						
+						</article>
+												
+						<article>
+							<h3>Leo Picado</h3>
+							<h4>Lead Front End Engineer</h4>
+							<p>“(...) Who would ever figure that we pretty much became dependant on his mad skills and relentless dedication? Seriously this guy is just too much. My only complain with Fabian is that there is only one of him, seriously, clone Fabian five times and fire your existing Flash Design team NOW!”</p>
+							<p class="date">March 11, 2011</p>
+						</article>
+						
+						<a href="https://cr.linkedin.com/pub/fabian-miranda/1b/428/376/">READ MORE EXTENDED REVIEWS OF MY WORK AT LINKEDIN.</a>
+					
+					</aside>
+					
+				</div>
+				
+				<div id="studiesAndCertifications">
+					<a id="studiesandcertifications" class="innerLink"></a>
+					<article id="studiesAndCertsWrapper">
+					
+						<img class="icon" src="images/certs.svg" alt="certifications icon" width="76" height="97"/>
+						<h2>STUDIES &amp;<br/>CERTIFICATIONS</h2>
+					
+						<p><img id="diploma" src="images/diplomaCert.svg" width="130" height="98" alt="diplima"/>First I achieved a technical degree in Advertising&nbsp;Design. Focused on the traditional way to make print advertisement and related. It was in 2003. After that, I was more interested on how internet was revolutionizing the way to communicate ideas, and learning about websites creation was my next goal.</p>
+						<p>I was studying completely by my own until 2006, and after little more than a year I completed a Professional Web Designer studies program in a Adobe Certified learning center.</p>
+						<p><img id="adobeCert" src="images/adobeCert.png" alt="Adobe Expert"/>In 2010 I earned the Adobe Certified Associate (ACA) level in Flash Professional CS4 via Certiport, and six months later I achieved the Adobe Certified Expert (ACE) in a Pearson Vue certification center. A year later, in 2011 I was able to earn the ACE in Flash Professional CS5. Now I am looking forward to take the ACE recertification exam in Flash Professional CS6.</p>
+						<p><img id="mediamindCert" src="images/mediamindCert.png" width="276" height="108" alt="<Mediamind"/>In 2012, I achieved the MediaMind Certification for producing rich media ads through their platform. I also have received recently an online trainings with MediaMind trainers about their HTML5 specifications.</p>
+						<p>During 2013 and 2014 I have become into a fully certified DoubleClick Developer. This includes the core certification, as much as the html5 and Flash specializations. Also I recently earned the Quality Assurance badge, and other badges that certified me as a trusted producer of Rich Media formats like Youtube mastheads, dynamic ads and engagement ads.</p>
+						<img id="dcbadges" src="images/dcbadges.png" alt="DoubleClick Badges"/>
+						<p>Nowadays, I am focused in increasing my skills and expertise in standard front-end technologies, learning advanced Javascript programming, interested in frameworks such as Angular, CSS preprocesors, and all these new tools that are gaining a lot of attention these days.</p>
+					</article>
+					
+					<aside id="nutshellBar">
+						<div id="nutshellHeader"><h2>IN A NUTSHELL</h2></div>
+						
+						<div id="firstColumn">
+						
+							<article>
+								<h3>Technical Degree in Advertisement Design</h3>
+								<p>2003 Liceo J. J. Vargas Calvo</p>		
+							</article>
+							
+							<article>
+								<h3>Professional Website Developer</h3>
+								<p>2006 - Cyber U</p> 
+							</article>
+							
+							<article>
+								<h3>Programming</h3>
+								<p>Currently in Course - UNED</p>
+							</article>
+							
+							<article>
+								<h3>Adobe Certified Expert (Flash)</h3>
+								<p>2010 - ACA Flash CS4<br/>2010 - ACE Flash CS4<br/>2011  - ACE Flash CS5</p>
+							</article>
+							
+						</div>
+						
+						<div id="secondColumn">
+						
+							<article>
+								<h3>MediaMind Certified Developer</h3>
+								<p>2012 - Rich Media Production</p>
+							</article>
+							
+							<article>
+								<h3>DobleClick Certified Developer</h3>
+								<p>2013 - DC Studio Core.<br/>
+								2013 - Flash Certified.<br/>
+								2013 - HTML5 Certified.<br/>
+								2014 - QA Certified.<br/>
+								2014 - Dynamic Campaigns.<br/>
+								2014 - Engagement Ads.<br/>
+								2014 - Youtube Mastheads</p>
+							</article>
+							
+						</div>
+						
+					</aside>
+										
+				</div>
+				
+				<div id="technologies">
+					<a id="technologies" class="innerLink"></a>
+					<header>
+						<img class="icon" src="images/tecnologiesicon.png" alt="Technologies icon" width="76" height="auto"/>
+						<h2>TECHNOLOGIES</h2>
+					</header>
+					
+						<section>
+							<h3>Web Development</h3>
+							<div class="webDevelopment" id="html5Icon" alt="HTML5"></div>
+							<div class="webDevelopment" id="css3Icon" alt="CSS3"></div>
+							<div class="webDevelopment" id="javascriptIcon" alt="JavaScript"></div>
+							<div class="webDevelopment" id="phpIcon" alt="PHP"></div>
+							<div class="webDevelopment" id="mySQLIcon" alt="MySQL"></div>
+						</section>
+						
+						<section>
+							<h3>Frameworks / Engines</h3>
+							<div class="frameworks" id="jquery" alt="jQuery"></div>
+							<div class="frameworks" id="zepto" alt="Zepto"></div>
+							<div class="frameworks" id="gsap" alt="GSAP"></div>
+							<div class="frameworks" id="hammer" alt="HammerJS"></div>
+							<div class="frameworks" id="createjs" alt="CreateJS"></div>
+							<div class="frameworks" id="grunt" alt="GruntJS"></div>
+							<div class="frameworks" id="modernizr" alt="Modernizr"></div>
+						</section>		
+						
+						<section>
+							<h3>OLA and Rich Media</h3>
+							<div class="olaplatforms" id="pointroll" alt="Pointroll"></div>
+							<div class="olaplatforms" id="doubleclick" alt="DoubleClick"></div>
+							<div class="olaplatforms" id="sizmek" alt="Sizmek/MediaMind"></div>
+							<div class="olaplatforms" id="atlas" alt="Atlas"></div>
+						</section>	
+						
+						<section>
+							<h3>Adobe Flash Ecosystem</h3>
+							<div class="flash" id="air" alt="Adobe AIR"></div>
+							<div class="flash" id="flash" alt="Adobe Flash Professional"></div>
+							<div class="flash" id="builder" alt="Adobe Flash Builder"></div>
+							<div class="flash" id="actionscript" alt="ActionScript"></div>
+						</section>
+																
+						<section>
+							<h3>eDetailing Development</h3>
+							<div class="edetailing" id="veeva" alt="Veeva"></div>
+							<div class="edetailing" id="cegedim" alt="Cegedim"></div>
+							<div class="edetailing" id="cobalt" alt="Cobalt"></div>
+						</section>						
+					
+				</div>
+				
+			</section>
+			
+			<!--#include file="footer.html" -->
+            
+            
+		</div>
+		<script src="js/detectmobiledevices.js" type="text/javascript"></script>
+		<script src="http://cdnjs.cloudflare.com/ajax/libs/gsap/1.14.2/TweenMax.min.js" type="text/javascript"></script>
+		<script src="https://maps.googleapis.com/maps/api/js" type="text/javascript"></script>
+		<script src="js/clamp.js"></script>
+
+		<script src="js/header.js" type="text/javascript"></script>
+		<script src="js/footer.js" type="text/javascript"></script>
+		<script src="js/modalForm.js" type="text/javascript"></script>
+        
+		
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+			
+			ga('create', 'UA-31687515-1', 'auto');
+			ga('send', 'pageview');
+		</script>
+		
+	</body>
+	
+</html>

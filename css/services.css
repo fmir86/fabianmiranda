@@ -1,0 +1,47 @@
+@charset "utf-8";
+
+#servicesWrapper{
+	background-image:url(../images/servicesBG.jpg);
+	background-color:#283a47;
+	background-repeat:no-repeat;
+	overflow:hidden;
+	padding:8%;
+}
+
+#servicesWrapper h1 { color:#FFF; font-size:50px; font-weight:lighter; line-height:48px; vertical-align:top; margin-bottom:36px;}
+#servicesWrapper h1 img{ display:inline-block; vertical-align:top; }
+
+#servicesWrapper .fluidBox2 { color:#FFF; background-color: rgba(0, 0, 0, 0.4); text-align:center; }
+#servicesWrapper .fluidBox2 h2 { color:#4aadba; font-size:14px; display:inline-block; text-align:center; margin-bottom:8px; vertical-align: top; line-height: 30px; }
+
+#servicesWrapper .fluidBox2 p { margin-bottom:12px; text-align:center; height:auto; vertical-align:text-top; font-size: 14px; clear: both;}
+
+
+#servicesWrapper .fluidBox2 img{ display:inline-block; vertical-align:top; width:auto; margin-right:6px;}
+#servicesWrapper .fluidBox2 a{ display:block; color:#FFF; background:rgba(72, 165, 183, 0.7); text-align:center; padding:4px 8px; }
+
+
+#detailedInfo{ overflow:hidden; padding: 8%; }
+
+#detailedInfo h1 { color:#727272; font-size:50px; font-weight:lighter; line-height:48px; margin-bottom:36px;}
+
+
+#detailedInfo article h2 { color:#48a5b7; width:96%; text-transform:uppercase; font-weight:lighter; font-size:28px; display:block; text-align:center; }
+#detailedInfo article object[type="image/svg+xml"]{ width:70%; height:auto; margin:12px 15% 16px 15%; display:block; overflow:hidden; visibility:hidden; }
+#detailedInfo article .titleWrapper > a { width:80%; margin:0 10% 10px 10%; display:block; color:#FFF; background:rgba(72, 165, 183, 1); text-align:center; padding:8px 0; overflow:hidden; }
+#detailedInfo article .textWrapper > a { float:right; text-transform:uppercase; color:#3f90a0; font-weight:lighter; }
+#detailedInfo article > a { line-height:0; margin:0; padding:0; }
+
+
+#detailedInfo article p { margin-bottom:20px; font-size:16px;}
+
+#detailedInfo article{
+	background-color:rgba(0,0,0,0.10);
+	padding:2%;
+	margin-bottom:6%;
+	color: #727272;
+	overflow:hidden;
+}
+
+#detailedInfo article .titleWrapper{ width:35%; display:inline-block; float:left; overflow:hidden; }
+#detailedInfo article .textWrapper{ width:61%; padding:2%; display:inline-block; overflow:hidden; }

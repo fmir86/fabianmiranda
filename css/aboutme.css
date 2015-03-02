@@ -1,0 +1,160 @@
+@charset "utf-8";
+
+a.innerLink{ font-size:0 !important; line-height:0 !important; padding:0 !important; margin:0 !important; }
+
+
+
+#aboutMeWrapper{
+	background:url(../images/profileBG.jpg) top center no-repeat #04070c;
+	overflow:hidden;
+}
+
+#aboutMeWrapper h1{
+	font-size:60px;
+	line-height:60px;
+	color:#4aadba;
+	font-weight:lighter;
+	display:block;
+	text-align:center;
+	margin:40px 0;
+}
+
+#profileArticle{
+	display:block;
+	margin:0 8% 40px 8%;
+	overflow:hidden;
+	color:#FFF;
+
+}
+
+#profileArticle h2{ font-weight:lighter; font-size:55px; line-height:45px; color:#FFF; display:block; margin-bottom:40px; }
+#profileArticle img{ display:inline-block; vertical-align:top; }
+
+#profileArticle #profileTextWrap{ width:48%; float:left; margin-right:6%; }
+#profileArticle #profileTextWrap p{ font-size:14px; margin-bottom:14px; line-height:20px; text-align:justify; }
+
+#profileArticle #medalsImages{ display:block; width:46%; height:auto; float:left; position:relative; color:#4aadba; text-align:center; }
+
+#profileArticle #medalsImages p { position:static; font-size:16px; line-height:32px; text-align:center; }
+#profileArticle #medalsImages p span.label { color:#fcfba5; font-size:20px; }
+
+
+#profileArticle #medalsImages img { position:static; width:23%; max-width:100px; margin: 15px 3% 0 3%; height: auto; }
+
+#profileArticle #medalsImages p:nth-of-type(1){ top:0px; left:0px; }
+#profileArticle #medalsImages p:nth-of-type(2){ top:2vw; right:0% }
+#profileArticle #medalsImages p:nth-of-type(3){ top:4vw; left:0px; }
+#profileArticle #medalsImages p:nth-of-type(4){ top:6vw; right:0%; }
+
+#profileArticle #medalsImages img:nth-of-type(2){ margin-top:40px; }
+
+/******   EXPERIENCE  *******/
+
+#Experience{
+	background-image:url(../images/grainTextureWhite.png);
+	width:84%;
+	overflow:hidden;
+	padding:40px 8%;
+}
+
+#Experience article { margin-top:30px; }
+#Experience h2{ font-size:60px; line-height:60px; color:#727272; font-weight:lighter; }
+#Experience h2 img{ margin-right:6px; }
+#Experience h3 { color:#48a5b7; font-size:16px; }
+#Experience h4 { color:#727272; font-size:14px; margin-bottom:10px; } 
+#Experience p { color:#727272; font-size:14px; }
+#Experience h3 span.workplace { color:#dbac3b; font-weight:lighter; }
+
+#experienceWrapper{ display:inline-block; width:65%; float:left; overflow:hidden; }
+
+#recommendationsBar { width:30%; display:block; float:right; background:rgba(0,0,0,0.10); padding-bottom:15px;}
+#recommendationsBar #recommendationsHeader { width:100%; padding:15px 0; background-image:url(../images/grainTextureBlue.png); text-align:center; }
+#recommendationsBar h2{ font-size:24px; line-height:20px; color:#FFF; display:inline-block; vertical-align:top; margin:8px 0 8px 6px; }
+#recommendationsBar img{ display:inline-block; width:20%; vertical-align:top; }
+#recommendationsBar h3, #recommendationsBar h4 { font-size:14px; padding:0 8%; margin:0; color:#48a5b7; }
+#recommendationsBar p { font-size:12px; padding:0 8%; margin:0; color:#6d6d6d; }
+#recommendationsBar p.date { text-align:right; margin-top:5px;}
+#recommendationsBar article { margin-top:10px; }
+#recommendationsBar a { font-size:12px; color:#48a5b7; padding:0 8%; display:block; font-weight:bolder; margin-top:15px; }
+
+/******* STUDIES AND CERTIFICATIONS *******/
+
+#studiesAndCertifications{
+	width:84%;
+	overflow:hidden;
+	padding:60px 8%;
+	background:url(../images/studiesandcertsBG.jpg) #000 no-repeat;
+}
+
+#studiesAndCertifications img.icon{ display:inline-block; vertical-align:top; }
+#studiesAndCertifications h2{ display:inline-block; vertical-align:top; color:#FFF; font-size:48px; line-height:50px; font-weight:normal; margin-left:10px; margin-bottom:30px; }
+
+#studiesAndCertifications #studiesAndCertsWrapper{ display:inline-block; width:65%; float:left; overflow:hidden;}
+#studiesAndCertifications img#diploma{ display:inline-block; float:left; width:24%; height:auto; margin:0 20px 0 0; }
+#studiesAndCertifications img#adobeCert{ display:inline-block; float:right; width:50%; height:auto; margin:0 0 0 20px; }
+#studiesAndCertifications img#mediamindCert{ display:inline-block; float:left; width:46%; height:auto; margin:0 20px 0 0; }
+
+#studiesAndCertifications p { font-size:14px; text-align:justify; color:#FFF; vertical-align:top; display:inline-block; margin: 0 0 16px 0; font-weight:lighter;}
+
+#studiesAndCertifications p:nth-of-type(1){ width:100%; }
+
+#studiesAndCertifications #dcbadges{ width:100%; margin-bottom:16px;}
+
+#nutshellBar{ width:30%; display:inline-block; float:right; background:rgba(255, 255, 255, .10); padding-bottom:20px; }
+#nutshellBar #nutshellHeader { width:100%; padding:15px 0; background:rgba(255, 255, 255, .10); text-align:center; }
+#nutshellBar #nutshellHeader h2 { font-size:24px; color:#4aadba; font-weight:bold; margin:0; }
+
+#nutshellBar article{ margin-top:20px; }
+#nutshellBar p, #nutshellBar h3 { font-size:14px; padding:0 8%; margin:0; color:#FFF; font-weight:lighter; }
+#nutshellBar h3 { font-weight:bolder; }
+
+/******** TECHNOLOGIES ***********/
+
+#technologies{
+	width:84%;
+	overflow:hidden;
+	padding:60px 8%;
+	background:url(../images/technologiesBackground.jpg) #060b14 no-repeat;
+	color:#FFF;
+}
+
+#technologies header{ margin-bottom:30px; }
+#technologies img.icon{ display:inline-block; vertical-align:top; }
+#technologies h2{ display:inline-block; vertical-align:top; color:#FFF; font-size:48px; line-height:50px; font-weight:normal; margin:12px 0 30px 10px;}
+#technologies .column { width:32%; display:inline-block; float:left; vertical-align:top; }
+#technologies .column:nth-of-type(2){ margin:0 2%; }
+#technologies section{ text-align:center; padding:22px; margin:0 0 2% 0; clear:both; background:rgba(255,255,255,0.04); }
+#technologies section h3{ color:#4aadba; margin-bottom:10px; font-weight:bold; }
+
+#technologies section div.webDevelopment { background:url(../images/tech_webTechnologies.png); display:inline-block; margin:0 20px; }
+#technologies section div.webDevelopment#html5Icon{ width:58px; height:81px; background-position:0 0; }
+#technologies section div.webDevelopment#css3Icon{ width:58px; height:81px; background-position:-87px 0; }
+#technologies section div.webDevelopment#javascriptIcon{ width:65px; height:81px; background-position:-173px 0; }
+#technologies section div.webDevelopment#phpIcon{ width:105px; height:81px; background-position:-256px 0; }
+#technologies section div.webDevelopment#mySQLIcon{ width:116px; height:81px; background-position:-380px 0; }
+
+#technologies section div.frameworks{ background:url(../images/tech_frameworks.png); display:inline-block; margin:0 12px;}
+#technologies section div.frameworks#jquery{ width:160px; height:66px; background-position:0 0; }
+#technologies section div.frameworks#zepto{ width:180px; height:66px; background-position:-170px 0; }
+#technologies section div.frameworks#gsap{ width:180px; height:66px; background-position:-366px 0; }
+#technologies section div.frameworks#hammer{ width:175px; height:66px; background-position:-563px 0; }
+#technologies section div.frameworks#createjs{ width:171px; height:66px; background-position:-764px 0; }
+#technologies section div.frameworks#grunt{ width:168px; height:66px; background-position:-951px 0; }
+#technologies section div.frameworks#modernizr{ width:176px; height:66px; background-position:-1143px 0; }
+
+#technologies section div.olaplatforms{ background:url(../images/tech_olaplatforms.png); display:inline-block; margin:0 12px;}
+#technologies section div.olaplatforms#pointroll{ width:165px; height:61px; background-position:0 0; }
+#technologies section div.olaplatforms#doubleclick{ width:167px; height:61px; background-position:-176px 0; }
+#technologies section div.olaplatforms#sizmek{ width:129px; height:61px; background-position:-359px 0; }
+#technologies section div.olaplatforms#atlas{ width:132px; height:61px; background-position:-500px 0; }
+
+#technologies section div.flash{ background:url(../images/tech_flash.png); display:inline-block; margin:0 12px 6px 0;}
+#technologies section div.flash#air{ width:222px; height:64px; background-position:0 0; }
+#technologies section div.flash#flash{ width:66px; height:64px; background-position:-244px 0; }
+#technologies section div.flash#builder{ width:65px; height:64px; background-position:-333px 0; }
+#technologies section div.flash#actionscript{ width:63px; height:64px; background-position:-421px 0; }
+
+#technologies section div.edetailing{ background:url(../images/tech_edetailing.png); display:inline-block; margin:0 12px;}
+#technologies section div.edetailing#veeva{ width:137px; height:46px; background-position:0 0; }
+#technologies section div.edetailing#cegedim{ width:165px; height:46px; background-position:-165px 0; }
+#technologies section div.edetailing#cobalt{ width:139px; height:46px; background-position:-361px 0; }

@@ -1,0 +1,188 @@
+@charset "UTF-8";
+
+#stage{
+	visibility:hidden;
+	position:absolute;
+	width:298px;
+	height:248px;
+	background-image:url(gradient.jpg);
+	background-repeat:no-repeat;
+	border:#000 solid 1px;
+}
+
+#placeholder{
+	position:absolute;
+	width:298px;
+	height:248px;
+	background:#999;
+	color:#FFF;
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:12px;
+	text-align:center;
+	border:#000 solid 1px;
+}
+
+#copy1{
+	position:absolute;
+	left:111px;
+	top:90px;
+	background-image:url(copy1.png);
+	width:176px;
+	height:35px;
+	opacity:0;
+}
+
+#copy2{
+	position:absolute;
+	left:174px;
+	top:44px;
+	background-image:url(copy2.png);
+	width:77px;
+	height:19px;
+}
+
+#copy3{
+	position:absolute;
+	left:132px;
+	top:122px;
+	background-image:url(copy3.png);
+	width:120px;
+	height:40px;
+	opacity:0;
+}
+
+#copy4{
+	position:absolute;
+	left:135px;
+	top:89px;
+	background-image:url(copy4.png);
+	width:121px;
+	height:53px;
+	opacity:0;
+}
+
+
+#blueBar{
+	position:absolute;
+	background:#0056b7;
+	width:298px;
+	height:37px;
+	top:211px;
+}
+
+#cta{
+	position:absolute;
+	background-image:url(cta.png);
+	width:134px;
+	height:24px;
+	left:157px;
+	top:9px;
+}
+
+#cta:hover{
+	cursor:pointer;
+}
+
+#textinput {
+	position:absolute;
+	text-align:center;
+	left:78px;
+	top:9px;
+	background:none;
+	border:none;
+	background-image:url(zipcodeBG.png);
+	width:76px;
+	height:19px;
+}
+
+#enterzipcode{
+	position:absolute;
+	background-image:url(enterzipcode.gif);
+	width:49px;
+	height:20px;
+	left:25px;
+	top:9px;
+}
+
+#logo_progressive{
+	position:absolute;
+	background-image:url(logo_progressive.png);
+	width:119px;
+	height:15px;
+	left:10px;
+	top:10px;
+}
+
+#flo_01{
+	position:absolute;
+	background-image:url(flo_01.png);
+	width:116px;
+	height:160px;
+	top:53px;
+	left:0px;
+}
+
+#flo_02{
+	opacity:0;
+	position:absolute;
+	background-image:url(flo_02.png);
+	width:109px;
+	height:156px;
+	top:60px;
+}
+
+#dragger{
+	position:absolute;
+	top:58px;
+	left:84px;
+}
+
+#rightArrow{
+	position:absolute;
+	width:20px;
+	height:19px;
+	left:187px;
+	background-image:url(arrow.png);
+}
+
+#leftArrow{
+	position:absolute;
+	width:20px;
+	height:19px;
+	background-image:url(arrow.png);
+	transform:rotate(180deg);
+	-ms-transform:rotate(180deg); /* IE 9 */
+	-webkit-transform:rotate(180deg); /* Safari and Chrome */
+}
+
+#dragRail{
+	position: absolute;
+	background-image: url(knobRail.png);
+	width:165px;
+	height:6px;
+	top:7px;
+	left:21px;
+}
+
+#knob{
+	position:absolute;
+	width:69px;
+	height:47px;
+	top:-32px;
+	left:46px;
+	background-image:url(knob.png);
+}
+
+#moneyAmount{
+	position:absolute;
+	color:#3a5fb4;
+	margin:0px;
+	font-size:15px;
+	font-family:Verdana, Geneva, sans-serif;
+	width:69px;
+	height:25px;
+	text-align:center;
+	top:4px;
+}
+
+sup { vertical-align: top; font-size: 10px; }

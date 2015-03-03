@@ -1,8 +1,0 @@
-@font-face {
-    font-family: 'CharlesModernRegularRegular';
-    src: url('charlesmodern-regular.eot');
-    src: url('charlesmodern-regular.eot') format('embedded-opentype'),
-         url('charlesmodern-regular.woff') format('woff'),
-         url('charlesmodern-regular.ttf') format('truetype'),
-         url('charlesmodern-regular.svg#CharlesModernRegularRegular') format('svg');
-}
